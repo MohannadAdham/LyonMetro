@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" id="scale1">
+    <title>2C4 - Final Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Leaflet stylesheet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- Import jQuery library -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+
+    <header class="jumbotron">
+        <div class="container-fluid">
+            <div class="row row-logos">
+                <div class="col-md-4 logo"><img src="images/ujm_transp.png"></div>
+                <div class="col-md-4 logo"><img src="images/Lyon2_transp.png"></div>
+                <div class="col-md-4 logo"><img src="images/ENS_transp.png"></div>
+            </div>
+            <div class="row row-header">
+                <div class="col-md-6 col-md-push-3">
+                    <h1 id="header1" style="color: #EEE; text-shadow: 1px 1px 6px #555">Master 2 Géomatique</h1>
+                    <h3>2C4 - Langage et Environnement de Base pour Développement Web</h3>
+                    <h5>Taux de Chômage, Lignes de Metro, Autopartage</h5>
+                    <h4>Mohannad ADHAM</h4>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div id='map' style="height:670px; margin-top: -30px; margin-right:-15px; margin-left:-15px"></div>
+            </div>
+        </div>
+    </div>
+
+
+<!--  Import Leaflet JavaScript Library-->
+<script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+<!-- Import animated marker JavaScript library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.AnimatedMarker/1.0.0/AnimatedMarker.js"></script>
+<!-- Import geojson data -->
+<script src="data/geojson_data.js"></script>
+<!-- Import our script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
+
+
+</body>
+</html>

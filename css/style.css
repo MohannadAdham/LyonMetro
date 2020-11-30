@@ -1,0 +1,63 @@
+ body {
+            background: #DDD;
+        }
+        h1, h3, h4, h5, .logo  {
+        text-align: center;
+
+        }
+        #search {
+            margin-bottom: 30px;
+        }
+
+      .jumbotron {
+        height: 80vh;
+        background-image: url("../images/cover2.jpg");
+        background-size: 100%;
+      }
+      .row-logos {
+        position: relative;
+        top: -3vh;
+        height: 17vh;
+        background-color : rgba(255, 255, 255, 0.6);
+      }
+      li {
+        font-size: 14px;
+      }
+      h4 {
+        font-size: 28px;
+        color: #eee;
+        margin-top: 5%;
+        font-weight: 500;
+      }
+      h5 {
+        font-size: 22px;
+        color: #222;
+        margin-top: 5%;
+        font-weight: 600;
+        text-shadow: 1px 1px 6px #fff;
+      }    
+
+      .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    }
+    .info h4 {
+        margin: 0 0 5px;
+        color: #777;
+    }
+
+      .legend {
+    line-height: 40px;
+    color: #555;
+    }
+    .legend i {
+        width: 40px;
+        height: 40px;
+        float: left;
+        margin-right: 8px;
+        opacity: 1;
+    }
